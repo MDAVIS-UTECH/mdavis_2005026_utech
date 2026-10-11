@@ -1,0 +1,25 @@
+<!DOCTYPE html>  <!--The doctype statement indicates the markup language of the document-->
+<html>
+<head>
+    <title>JS-Lab 1</title>
+    <script type="text/javascript">
+
+        // Task 3(a): Find the minimum of three numbers
+        function minimum(a, b, c)
+        {
+            return Math.min(a, b, c);
+        }
+
+        var x, y, z;
+
+        x = parseFloat(window.prompt("Enter your first number", 4));
+        y = parseFloat(window.prompt("Enter your second number", 3));
+        z = parseFloat(window.prompt("Enter your third number", 2));
+
+        document.write("The minimum is: " + minimum(x, y, z) + "<br/>");
+         
+    </script>
+</head>
+<body>
+</body>
+</html>
